@@ -1,0 +1,564 @@
+.body{
+  
+    Font Family: 'Nunito';
+}
+
+.container1{
+    width: 1600px;
+    margin: 0 auto;
+    
+}
+.header{
+    box-shadow: rgb(224 221 221) 0px 8px 15px;
+    background: rgb(253, 252, 252);
+    /* background-attachment: fixed; */
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+.logo{
+    text-align: left;
+}
+.logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+    color: #585454;
+}
+.logo a span{
+    color: red;
+}
+.menu{}
+.menu ul{
+    text-align: right;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 10px;
+    Color: #3b3737;
+    transition: .4s;
+    font-size: 20px;
+    line-height: 100%;
+    padding-top: 14px;
+}
+.menu ul li a:hover{
+    Color: #ff3838;
+}
+
+
+
+
+
+/*banner..........banner............banner...*/
+
+/*banner---Left*/
+
+.banner{
+   
+    background-image: url(./img/home-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 400px;
+    box-shadow: inset 0px 6px 10px #ece8e8;
+   
+
+}
+.banner-left{
+    text-align: left;
+}
+.banner-left h1{
+    margin-top: 290px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: 700;
+
+}
+.banner-left p{
+    font-size: 14px;
+}
+.banner-right{
+   position: absolute;
+  
+
+}
+.hp{
+    position: relative;
+    
+}
+.banner-right img{
+    width: 100%;
+    animation: tata 1s linear infinite;
+}
+@keyframes tata{
+    100%{
+        transform: translateY(-6px);
+        
+}
+50%{
+    transform: translateY(6px);
+    
+}  0%{
+    transform: translateY(-6px);
+    
+}
+}
+/* -----------------botton part -------------------*/
+
+
+
+ .red7{
+  border: 2px solid red;
+  background:none;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  transition: .8s;
+  
+}
+ .red7 a{
+    text-decoration: none;
+    color: gray;
+    padding: 19px 27px;
+    display: inline-block;
+    transition: .6s;
+    
+    font-size: 22px;
+    line-height: 69%;
+    
+}
+.red7::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height:100%;
+    width: 0%;
+    background: red;
+    transition: .6s;
+    visibility: hidden;
+}
+
+.red7:hover::before{
+    width: 100%;
+    overflow: hidden;
+    visibility: visible;
+    position: absolute;
+    transition: .6s;
+    top: 0;
+    left:  0; 
+}
+
+
+/*banner----right*/
+
+.banner-right{}
+.banner-right img{
+    max-width: 100%;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+
+/* <!----------------------- our-speciality -------------------- --> */
+
+
+.our-speciality{
+    background: #f7f7f7;
+    z-index: -1;
+}
+.one{
+    margin: 60px;
+    font-weight: 700;
+}
+.one span{
+    color:#ff3838 ;
+}
+.one::selection{
+    background: red;
+ 
+}
+.one span::selection{
+    background: red;
+    color: black;
+}
+.two1{
+    box-sizing: border-box;
+    outline: 2px solid gray;
+    background: #fff;
+    border-radius: 5px;
+    width: 100%;
+    
+    height: 331px;
+    border-bottom: 14px solid rgb(253, 249, 249);
+    margin-bottom: 10px;
+    overflow: hidden;
+   
+}
+.two1 span{}
+.two1 span img{
+    margin-top: 46px;
+}
+.two1 h1{
+    font-size: 25px;
+    margin-bottom: 13px;
+    margin-top: 30px;
+    font-weight: 700;
+    
+}
+.two1 p{
+    color:gray;
+    padding: 0px 21px;
+}
+.two11 .lll img{
+    width: 100%;
+    height: 330px;
+    
+
+}
+.two10{
+    width: 100%;
+    height: 300px;
+   
+}
+ .roww{
+    transform: translateY(-377px);
+    transition: .5s;
+ }
+.roww:hover{
+    transform: translateY(-50px);
+}
+
+.two2{
+    box-sizing: border-box;
+    outline: 2px solid gray;
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 248px;
+    
+    overflow: hidden;
+ 
+}
+.two2 span{}
+.two2 span img{
+    margin-top: 12px;
+}
+.two2 h1{
+    font-size: 25px;
+    margin-bottom: 13px;
+    margin-top: 30px;
+    
+}
+.two2 p{
+    color:gray;
+    padding: 1px 42px;
+}
+.red{
+    border-bottom: 73px solid #f8f5f5;
+}
+.red h1{
+    margin-top: 56px;
+}
+
+
+
+
+/* <!--------------- Most populer foods --------> */
+.most-populer{
+    background: #f7f7f7;
+}
+ .omg{
+    display: inline-block;
+text-decoration: none;
+padding: 3px 31px;
+background: #ec4949;
+color: #fff;
+position: absolute;
+top: 31px;
+left: 30px;
+border-radius: 5px;
+font-size: 27px;
+}
+.one{}
+.most{
+    border: 2px solid #ddd;
+    padding: 20px;
+    height: 513px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    position: relative;
+    width: 104%;
+}
+.most span{}
+.most span img{
+    max-width: 100%;
+    border-radius: 5px;
+    height: 295px;
+    
+}
+.most h1{
+    font-size: 30px;
+    margin: 18px 0;
+    margin-bottom: 8px;
+    color: #463f3f;
+}
+.most .star{
+    color: yellow;
+    margin: 10px 0;
+    display: inline-block;
+    font-size: 20px
+}
+.most button{}
+.most button a{}
+.most button a:hover{}
+.most1 img{
+    width: 100%;
+    height: 351px;
+    border-radius: 5px;
+}
+.most1{
+    box-shadow: 0px 6px 10px #ece8e8;
+    border: 2px solid #ddd;
+    padding: 20px;
+    position: relative;
+    width: 102%;
+}
+.most1 .star{
+    color: yellow;
+    margin: 10px 0;
+    display: inline-block;
+    font-size: 20px
+}
+.most1 h1{
+    font-size: 30px;
+    margin: 18px 0;
+    margin-bottom: 8px;
+    color: #463f3f;
+}
+
+
+
+
+/* <!-- ----------------how it works ------------------------> */
+
+.how-it-work{
+    background: #f7f7f7;
+}
+.how{
+    margin-left: 20px;
+}
+.how img{
+    max-width: 100%;
+    border: 10px solid rgb(235, 222, 222);
+    border-radius: 50%;
+}
+.how h1{
+    font-size: 32px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+.how h1::selection{
+    background: red;
+    color: #fff;
+}
+
+
+
+
+/* <!--------------- food-gallery ------------------> */
+
+.food-gallery{
+    background: #f7f7f7;
+}
+.fod{
+    border: 11px solid #e2dcdc;
+    margin-bottom: 20px;
+    position: relative;
+    width: 390px;
+     height: auto;
+     overflow: hidden;
+     transition: .6s;
+    
+}
+.fod img{
+    max-width: 100%;
+    
+}
+
+.fod1 {
+background-image: url(./img/g-9.jpg);
+padding: 200px;
+background-size: cover;
+background-position: center;
+transition: .6s;
+position: relative;
+overflow: hidden;
+}
+.fod1:hover .fod91{
+    height: 100%;
+    width: 100%;
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0px);
+    
+}
+ .f3{
+    margin-top: 148px;
+    font-size: 33px;
+    font-weight: 600;
+}
+.fod1 p{
+   padding: 20px 7px !important;
+}
+.f3 button{
+    margin-top: 36x;
+    padding: 7px 9px;
+
+}
+
+.fod91{
+width: 100%;
+height: 0%;
+position: absolute;
+top: 0;
+left: 0;
+transition: .6s;
+background: rgba(253, 249, 249, 0.9);
+visibility: hidden;
+opacity: 0;
+transform: translateY(-184px);
+
+}
+.fod91 h1{
+    margin-top: 20px;
+}
+.fod91 p{
+   padding: 0 7px;
+}
+.fod91 button{
+    margin-top: 36x;
+    padding: 7px 9px;
+
+}
+.fod:hover .fod91{
+    height: 100%;
+    width: 100%;
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0px);
+    
+}
+.fod1{
+    border: 11px solid #e2dcdc;
+}
+
+
+
+/* <!---------- customers reviews ----------> */
+
+.customers{
+    background: #f7f7f7;
+}
+.customer{
+    border: 13px solid #ccc3c3;
+    background: #555151;
+}
+.customer img{
+    border-radius: 50%;
+    position: relative;
+    top: -78px;
+    max-width: 100%;
+}
+.customer h1{
+    color: #fff;
+    margin-bottom: 36px;
+    margin-top: -78px;
+}
+.customer .star{
+    color: red;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.customer p{
+    color: #fff;
+}
+.customer p::selection{
+    background: red;
+}
+.on{
+    margin-bottom: 90px;
+}
+
+
+/* <!--- ---------------order now ------------> */
+
+
+
+.order-now{
+    background: #f7f7f7;
+    padding-bottom: 35px;
+}
+.panda{
+
+}
+.panda img{
+    max-width: 100%;
+}
+.panda1{
+    max-width: 100%;
+}
+.hii{
+   
+    
+}
+.hi{
+    background: #ffffff;
+    text-align: left;
+    box-shadow: -1px 4px 49px #e2dada;
+    padding: 20px 0;
+}
+.mgg{
+    width: 100%;
+    outline: none;
+    border: 2px solid #ddd;
+    margin-bottom: 5px;
+    padding: 12px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.mgg1{
+    width: 100%;
+}
+/*footer*/
+.footer{
+    background: #000;
+    padding-bottom: 0px;
+    padding: 20px 0;
+    padding-top: 28px;
+}
+.ttt{
+    color: red;
+    padding-bottom: 1px;
+    margin-bottom: 7px;
+}
+.ttt li{
+    display: inline-block;
+}
+.ttt li a{
+color: red;
+}
+.footer p{
+    color: #fff;
+    font-size: 27px;
+}
+.footer p span{
+    color: red;
+    font-size: 20px;
+}
+button.red7 {
+    margin-left: 9px;
+}
